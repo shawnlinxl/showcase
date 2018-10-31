@@ -11,12 +11,11 @@ class Showcase extends Component {
     }
 
     fetchWebsites = () => {
-        setTimeout(() => {
+        // setTimeout(() => {
         this.setState({...this.state, fetchingWebsite: true});
         axios.get(`api/hello`)
             .then(res => { this.setState({ websites: res.data.websites, fetchingWebsite: false }); });   
-        }, 1000);
-        
+        // }, 1000);
     }
     
     render() {
