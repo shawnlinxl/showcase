@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Layout from './components/layout/layout';
-import Showcase from './containers/showcase/showcase';
+import Layout from './components/layout/Layout';
+import Showcase from './containers/showcase/Showcase';
 import 'semantic-ui-css/semantic.min.css';
 
 class App extends Component {

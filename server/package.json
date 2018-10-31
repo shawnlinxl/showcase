@@ -1,0 +1,24 @@
+{
+  "name": "showcase-server",
+  "version": "1.0.0",
+  "description": "Server end for showcase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnlinxl/showcase.git"
+  },
+  "author": "Shawn Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnlinxl/showcase/issues"
+  },
+  "homepage": "https://github.com/shawnlinxl/showcase#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
