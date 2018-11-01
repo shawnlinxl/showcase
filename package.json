@@ -19,7 +19,7 @@
     "url": "https://github.com/shawnlinxl/showcase/issues"
   },
   "homepage": "https://github.com/shawnlinxl/showcase#readme",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^4.0.1"
   }
 }
