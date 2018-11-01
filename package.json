@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client && npm install && cd .. && cd server && npm install",
     "client": "cd client && PORT=3000 npm start",
     "server": "cd server && PORT=5000 npm start",
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
