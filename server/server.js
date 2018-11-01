@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-website = [
+let website = [
         {
             name: "Programmers' showcase",
             imgsrc: "https://react.semantic-ui.com/images/avatar/large/matthew.png",
@@ -38,10 +38,11 @@ website = [
 app.get('/api/hello', (req, res) => {
   res.send({ websites: website });
 });
+
 app.post('/api/world', (req, res) => {
   console.log(req.body);
   res.send(
-    `I received your POST request. This is what you sent me: ${req.body.post}`,
+    `I received your POST request. This is what you sent me: ${req.body.post}`
   );
 });
 
